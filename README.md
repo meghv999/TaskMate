@@ -1,6 +1,6 @@
 <div align="center">
 <img src="/readme/icon.png" width="150"/>
-<h2>ToDark</h2>
+<h2>TaskMate</h2>
 </div>
 
 ### Short Description:
@@ -53,8 +53,8 @@ We also tried to make the design as convenient and beautiful as possible.
 
 ### Download:
 
-[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yoshi.todark)
+[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.yoshi.TaskMate)
 [![AppGallery](https://img.shields.io/badge/AppGallery-red?style=for-the-badge)](https://appgallery.huawei.ru/app/C107003991)
-[![RuStore](https://img.shields.io/badge/RuStore-blue?style=for-the-badge&logo=vk&logoColor=white)](https://apps.rustore.ru/app/com.yoshi.todark)
+[![RuStore](https://img.shields.io/badge/RuStore-blue?style=for-the-badge&logo=vk&logoColor=white)](https://apps.rustore.ru/app/com.yoshi.TaskMate)
 
-Or get the latest APK from the [Releases Section](https://github.com/DarkMooNight/ToDark/releases/latest). You can also find the app on IzzyOnDroid via a F-Droid client [here](https://apt.izzysoft.de/fdroid/index/apk/com.yoshi.todark).
+Or get the latest APK from the [Releases Section](https://github.com/DarkMooNight/TaskMate/releases/latest). You can also find the app on IzzyOnDroid via a F-Droid client [here](https://apt.izzysoft.de/fdroid/index/apk/com.yoshi.TaskMate).

@@ -1,7 +1,7 @@
 import 'package:iconsax/iconsax.dart';
-import 'package:todark/app/services/isar_service.dart';
-import 'package:todark/app/widgets/todos_ce.dart';
-import 'package:todark/app/widgets/todos_list.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
+import 'package:TaskMate/app/widgets/todos_ce.dart';
+import 'package:TaskMate/app/widgets/todos_list.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

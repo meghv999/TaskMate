@@ -1,6 +1,6 @@
-import 'package:todark/app/modules/home.dart';
-import 'package:todark/app/modules/onboarding.dart';
-import 'package:todark/theme/theme.dart';
+import 'package:TaskMate/app/modules/home.dart';
+import 'package:TaskMate/app/modules/onboarding.dart';
+import 'package:TaskMate/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -9,12 +9,13 @@ import 'package:flutter_native_timezone/flutter_native_timezone.dart';
 import 'package:get/get.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:isar/isar.dart';
-import 'package:todark/theme/theme_controller.dart';
+import 'package:TaskMate/theme/theme_controller.dart';
 import 'app/data/schema.dart';
 import 'package:path_provider/path_provider.dart';
 import 'translation/translation.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
@@ -24,6 +25,7 @@ late Settings settings;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   final String timeZoneName = await FlutterNativeTimezone.getLocalTimezone();
   const AndroidInitializationSettings initializationSettingsAndroid =
       AndroidInitializationSettings('@mipmap/ic_launcher');

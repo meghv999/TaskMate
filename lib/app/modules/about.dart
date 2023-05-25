@@ -74,7 +74,7 @@ class _AboutPageState extends State<AboutPage> {
                 ),
                 const SizedBox(height: 15),
                 Text(
-                  'ToDark',
+                  'TaskMate',
                   style: context.theme.textTheme.headlineLarge?.copyWith(
                     fontWeight: FontWeight.w600,
                     color: context.theme.textTheme.titleLarge?.color,
@@ -104,7 +104,7 @@ class _AboutPageState extends State<AboutPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () async {
                     final Uri url =
-                        Uri.parse('https://github.com/DarkMooNight/ToDark');
+                        Uri.parse('https://github.com/DarkMooNight/TaskMate');
 
                     if (!await launchUrl(url,
                         mode: LaunchMode.externalApplication)) {

@@ -1,4 +1,4 @@
-import 'package:todark/main.dart';
+import 'package:TaskMate/main.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/timezone.dart' as tz;
 
@@ -7,7 +7,7 @@ class NotificationShow {
       int id, String title, String body, DateTime? date) async {
     AndroidNotificationDetails androidNotificationDetails =
         const AndroidNotificationDetails(
-      'ToDark',
+      'TaskMate',
       'DARK NIGHT',
       priority: Priority.max,
       importance: Importance.max,

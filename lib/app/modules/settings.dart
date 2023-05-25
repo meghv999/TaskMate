@@ -9,11 +9,11 @@ import 'package:iconsax/iconsax.dart';
 import 'package:intl/intl.dart';
 import 'package:isar/isar.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:todark/app/data/schema.dart';
-import 'package:todark/app/modules/about.dart';
-import 'package:todark/app/widgets/settings_link.dart';
-import 'package:todark/main.dart';
-import 'package:todark/theme/theme_controller.dart';
+import 'package:TaskMate/app/data/schema.dart';
+import 'package:TaskMate/app/modules/about.dart';
+import 'package:TaskMate/app/widgets/settings_link.dart';
+import 'package:TaskMate/main.dart';
+import 'package:TaskMate/theme/theme_controller.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

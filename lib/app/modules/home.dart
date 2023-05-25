@@ -1,13 +1,13 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
-import 'package:todark/app/modules/all_tasks.dart';
-import 'package:todark/app/modules/calendar.dart';
-import 'package:todark/app/modules/category.dart';
-import 'package:todark/app/modules/settings.dart';
-import 'package:todark/app/services/isar_service.dart';
+import 'package:TaskMate/app/modules/all_tasks.dart';
+import 'package:TaskMate/app/modules/calendar.dart';
+import 'package:TaskMate/app/modules/category.dart';
+import 'package:TaskMate/app/modules/settings.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:todark/theme/theme_controller.dart';
+import 'package:TaskMate/theme/theme_controller.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
           scale: 15,
         ),
         title: Text(
-          'ToDark',
+          'TaskMate',
           style: context.theme.textTheme.titleLarge,
         ),
       ),

@@ -3,9 +3,9 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:isar/isar.dart';
-import 'package:todark/app/data/schema.dart';
-import 'package:todark/app/services/notification.dart';
-import 'package:todark/main.dart';
+import 'package:TaskMate/app/data/schema.dart';
+import 'package:TaskMate/app/services/notification.dart';
+import 'package:TaskMate/main.dart';
 
 class IsarServices {
   final titleEdit = TextEditingController().obs;

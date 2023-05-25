@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:todark/app/data/schema.dart';
-import 'package:todark/main.dart';
+import 'package:TaskMate/app/data/schema.dart';
+import 'package:TaskMate/main.dart';
 
 class ThemeController extends GetxController {
   ThemeMode get theme => settings.theme == null

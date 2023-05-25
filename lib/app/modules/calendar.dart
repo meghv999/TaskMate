@@ -1,14 +1,14 @@
 import 'package:iconsax/iconsax.dart';
 import 'package:isar/isar.dart';
 import 'package:swipe/swipe.dart';
-import 'package:todark/app/data/schema.dart';
-import 'package:todark/app/services/isar_service.dart';
+import 'package:TaskMate/app/data/schema.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:todark/app/widgets/todos_ce.dart';
-import 'package:todark/app/widgets/todos_list.dart';
-import 'package:todark/main.dart';
+import 'package:TaskMate/app/widgets/todos_ce.dart';
+import 'package:TaskMate/app/widgets/todos_list.dart';
+import 'package:TaskMate/main.dart';
 
 class CalendarPage extends StatefulWidget {
   const CalendarPage({super.key});

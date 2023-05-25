@@ -1,6 +1,6 @@
-import 'package:todark/app/data/schema.dart';
-import 'package:todark/app/services/isar_service.dart';
-import 'package:todark/app/widgets/text_form.dart';
+import 'package:TaskMate/app/data/schema.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
+import 'package:TaskMate/app/widgets/text_form.dart';
 import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

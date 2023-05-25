@@ -1,9 +1,9 @@
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
-import 'package:todark/app/data/schema.dart';
+import 'package:TaskMate/app/data/schema.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:todark/app/services/isar_service.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
 import '../modules/tasks.dart';
 
 class TaskTypeList extends StatefulWidget {

@@ -3,9 +3,9 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:intl/intl.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
-import 'package:todark/app/services/isar_service.dart';
-import 'package:todark/app/widgets/task_type_cu.dart';
-import 'package:todark/app/widgets/task_type_list.dart';
+import 'package:TaskMate/app/services/isar_service.dart';
+import 'package:TaskMate/app/widgets/task_type_cu.dart';
+import 'package:TaskMate/app/widgets/task_type_list.dart';
 
 class CategoryPage extends StatefulWidget {
   const CategoryPage({super.key});
