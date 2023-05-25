@@ -140,7 +140,7 @@ class Translation extends Translations {
           "deleteAllBDQuery": "Are you sure you want to delete all the data?",
           "about": "About us",
           "aboutDesc":
-              "This is an open source project.\nif you liked our work, put a few 🌟 and ❤ on the repositories",
+              "This is an app built by Megh Vora.\nif you liked my work, put a few 🌟 and ❤ on the repository",
           "author": "Made with ❤ from",
           "errorPath": "You have not chosen the path to save the backup",
           "error": "Something went wrong",
@@ -253,7 +253,8 @@ class Translation extends Translations {
           "timeComlete": "زمان اجرا",
           "addCategory": "افزودن یک دسته بندی",
           "deleteCategory": "حذف یک دسته بندی",
-          "deleteCategoryQuery": "آیا مطمئن هستید میخواهید یک دسته بندی را حذف کنید؟",
+          "deleteCategoryQuery":
+              "آیا مطمئن هستید میخواهید یک دسته بندی را حذف کنید؟",
           "tasks": "کارها",
           "allTasks": "تمام کارها",
           "create": "ایجاد",
@@ -268,11 +269,13 @@ class Translation extends Translations {
           "taskCreate": "کار ایجادشد",
           "duplicateTask": "این کار وجود دارد",
           "archiveTask": "بایگانی دسته بندی",
-          "archiveTaskQuery": "آیا مطمئن هستیو میخواهید دسته بندی ها را بایگانی کنید؟",
+          "archiveTaskQuery":
+              "آیا مطمئن هستیو میخواهید دسته بندی ها را بایگانی کنید؟",
           "archive": "به بایگانی",
           "taskArchive": "دسته بندی در بایگانی",
           "noArchiveTask": "بازگرداندن دسته بندی",
-          "noArchiveTaskQuery": "آیا مطمئن هستید میخواهید دسته بندی را بازگردانید؟",
+          "noArchiveTaskQuery":
+              "آیا مطمئن هستید میخواهید دسته بندی را بازگردانید؟",
           "noArchive": "بازگردانی",
           "noTaskArchive": "دسته بندی بازگردانده شد",
           "addArchive": "بایگانی کردن دسته بندی",
@@ -283,7 +286,8 @@ class Translation extends Translations {
           "restore": "بازگردانی داده کاربر",
           "deleteAllBD": "حذف تمامی داده ها",
           "deleteAllBDTitle": "در حال حذف داده ها",
-          "deleteAllBDQuery": "آیا مطمئن هستید میخواهید تمام داده ها را حذف کنید؟",
+          "deleteAllBDQuery":
+              "آیا مطمئن هستید میخواهید تمام داده ها را حذف کنید؟",
           "about": "درباره ما",
           "aboutDesc":
               "این یک پروژه متن باز است. \n اگر از کارمان خوشتان آمد، در مخازن 🌟 و ❤ بگذارید",

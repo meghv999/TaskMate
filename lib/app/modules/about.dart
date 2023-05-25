@@ -104,7 +104,7 @@ class _AboutPageState extends State<AboutPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () async {
                     final Uri url =
-                        Uri.parse('https://github.com/DarkMooNight/TaskMate');
+                        Uri.parse('https://github.com/meghv999/TaskMate');
 
                     if (!await launchUrl(url,
                         mode: LaunchMode.externalApplication)) {
@@ -125,7 +125,7 @@ class _AboutPageState extends State<AboutPage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(5, 30, 5, 20),
               child: Text(
-                '${'author'.tr} DARK NIGHT',
+                '${'author'.tr} Megh Vora',
                 style: context.theme.textTheme.labelLarge?.copyWith(
                   fontWeight: FontWeight.w400,
                   fontSize: 16,
